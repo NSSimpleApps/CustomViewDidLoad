@@ -14,6 +14,7 @@
 		B553DA811AE3F25B00848A25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B553DA801AE3F25B00848A25 /* Images.xcassets */; };
 		B553DA841AE3F25B00848A25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B553DA821AE3F25B00848A25 /* LaunchScreen.xib */; };
 		B553DA901AE3F25B00848A25 /* CustomViewDidLoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B553DA8F1AE3F25B00848A25 /* CustomViewDidLoadTests.m */; };
+		B553DA9B1AE3F32D00848A25 /* UIViewController+CustomViewDidLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = B553DA9A1AE3F32D00848A25 /* UIViewController+CustomViewDidLoad.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B553DA891AE3F25B00848A25 /* CustomViewDidLoadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewDidLoadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B553DA8E1AE3F25B00848A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B553DA8F1AE3F25B00848A25 /* CustomViewDidLoadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewDidLoadTests.m; sourceTree = "<group>"; };
+		B553DA991AE3F32D00848A25 /* UIViewController+CustomViewDidLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CustomViewDidLoad.h"; sourceTree = "<group>"; };
+		B553DA9A1AE3F32D00848A25 /* UIViewController+CustomViewDidLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CustomViewDidLoad.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				B553DA771AE3F25B00848A25 /* AppDelegate.h */,
 				B553DA781AE3F25B00848A25 /* AppDelegate.m */,
+				B553DA991AE3F32D00848A25 /* UIViewController+CustomViewDidLoad.h */,
+				B553DA9A1AE3F32D00848A25 /* UIViewController+CustomViewDidLoad.m */,
 				B553DA7A1AE3F25B00848A25 /* ViewController.h */,
 				B553DA7B1AE3F25B00848A25 /* ViewController.m */,
 				B553DA7D1AE3F25B00848A25 /* Main.storyboard */,
@@ -221,6 +226,7 @@
 			files = (
 				B553DA7C1AE3F25B00848A25 /* ViewController.m in Sources */,
 				B553DA791AE3F25B00848A25 /* AppDelegate.m in Sources */,
+				B553DA9B1AE3F32D00848A25 /* UIViewController+CustomViewDidLoad.m in Sources */,
 				B553DA761AE3F25B00848A25 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

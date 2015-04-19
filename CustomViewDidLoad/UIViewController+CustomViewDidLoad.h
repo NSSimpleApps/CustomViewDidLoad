@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIViewController+CustomViewDidLoad.h
 //  CustomViewDidLoad
 //
 //  Created by NSSimpleApps on 19.04.15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface UIViewController (CustomViewDidLoad)
 
 @end
-

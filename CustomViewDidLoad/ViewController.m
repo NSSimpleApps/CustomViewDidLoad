@@ -2,7 +2,7 @@
 //  ViewController.m
 //  CustomViewDidLoad
 //
-//  Created by neo on 19.04.15.
+//  Created by NSSimpleApps on 19.04.15.
 //  Copyright (c) 2015 NSSimpleApps. All rights reserved.
 //
 
@@ -15,8 +15,10 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
