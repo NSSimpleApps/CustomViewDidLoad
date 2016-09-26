@@ -41,7 +41,7 @@
     [button setTitle:@"Common button" forState:UIControlStateNormal];
     [self.view addSubview:button];
     
-    [self setTitle:@"Common title"];
+    self.title = @"Common title";
     
     [self customViewDidLoad];
 }
